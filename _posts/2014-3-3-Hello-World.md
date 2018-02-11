@@ -1,9 +1,13 @@
 ---
 layout: post
-title: You're up and running!
+title: MYOB Grad blog
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+Hey People reading this.  I was asked to make a blog as a graduate developer so here it is.
+
+## Orientation
+
+Us Aucklanders were really lucky. We got to go to Melbourne to be with the other graduates for orientation week.  We learned about the company and did a lot of origami.
 
 ![_config.yml]({{ site.baseurl }}/images/config.png)
 
