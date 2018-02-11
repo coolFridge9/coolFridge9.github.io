@@ -9,6 +9,6 @@ Hey People reading this.  I was asked to make a blog as a graduate developer so 
 
 Us Aucklanders were really lucky. We got to go to Melbourne to be with the other graduates for orientation week.  We learned about the company and did a lot of origami.
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+![_config.yml]({{ site.baseurl }}/images/27907203_10156312131403714_1974564073_o.jpg)
 
 The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
