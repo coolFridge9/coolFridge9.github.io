@@ -16,5 +16,5 @@ The Cremorne office was pretty neat.  As you can see from the image, the stairca
 ### a
 
 Here we have a exclusive photo of us Auckland proteges on the train.
-![_config.yml]({{ site.baseurl }}/28001411_10215470943909608_1724912889_n.jpg)
+![_config.yml]({{ site.baseurl }}/images/28001411_10215470943909608_1724912889_n.jpg)
 
