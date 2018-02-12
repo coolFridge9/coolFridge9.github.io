@@ -11,4 +11,7 @@ Us Aucklanders were really lucky. We got to go to Melbourne to be with the other
 
 ![_config.yml]({{ site.baseurl }}/images/27907203_10156312131403714_1974564073_o.jpg)
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+The Cremorne office was pretty neat.  As you can see from the image, the staircase has binary on the side.
+
+Here we have a exclusive photo of us Auckland proteges on the train.
+![_config.yml]({{ site.baseurl }}/28001411_10215470943909608_1724912889_n.jpg)
