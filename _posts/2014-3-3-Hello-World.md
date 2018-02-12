@@ -3,7 +3,7 @@ layout: post
 title: MYOB Grad blog
 ---
 
-Hey people!  I was asked to make a blog as a graduate developer so here it is.
+Hey!  Here is my blog as a grad developer.
 
 ## Orientation
 
@@ -17,5 +17,5 @@ Here we have a exclusive photo of us Auckland proteges on the train.
 ![_config.yml]({{ site.baseurl }}/images/28001411_10215470943909608_1724912889_n.jpg)
 
 ## Week One
-We are 2/5 through week one and we are still working hard
-![_config.yml]({{ site.baseurl }}/images/28080126_10215478216011406_1557746126_o.jpg)
+We are almost halfway through week one and we are still working hard
+![_config.yml]({{ site.baseurl }}/images/28080126_10215478216011406_1557746126_o.jpg= 300x300)
