@@ -18,4 +18,4 @@ Here we have a exclusive photo of us Auckland proteges on the train.
 
 ## Week One
 We are almost halfway through week one and we are still working hard
-![_config.yml]({{ site.baseurl }}/images/28080126_10215478216011406_1557746126_o.jpg= 300x300)
+![]({{ site.baseurl }}/images/28080126_10215478216011406_1557746126_o.jpg = 300x300)
