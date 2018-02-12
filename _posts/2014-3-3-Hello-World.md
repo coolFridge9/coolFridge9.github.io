@@ -3,7 +3,7 @@ layout: post
 title: MYOB Grad blog
 ---
 
-Hey People reading this.  I was asked to make a blog as a graduate developer so here it is.
+Hey people!  I was asked to make a blog as a graduate developer so here it is.
 
 ## Orientation
 
