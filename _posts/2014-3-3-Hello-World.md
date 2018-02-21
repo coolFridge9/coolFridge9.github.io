@@ -26,4 +26,4 @@ I have now completed the tax reciept challange 3 times as a result of code revie
 We had a learning seesion on TDD and using Jet brains rider which I found useful.
 We also learned the technique to peer programming and mobbing.
 I attended the Say It As It Is learning lab and became an expert on giving feedback.
-I found out the a lot of VIM users have a strong dislike fo Emacs.  My manager Mark especially does not like Emacs so I installed emacs and spent some of Thursday morning learning emacs.
+I found out that a lot of VIM users have a strong dislike fo Emacs.  My manager Mark especially does not like Emacs so I installed emacs and learned how to use it.
