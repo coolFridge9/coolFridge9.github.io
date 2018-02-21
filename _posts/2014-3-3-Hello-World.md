@@ -19,3 +19,11 @@ Here we have a exclusive photo of us Auckland proteges on the train.
 ## Week One
 We are almost halfway through week one and we are still working hard
 ![]({{ site.baseurl }}/images/28080126_10215478216011406_1557746126_o.jpg)
+I attended culture day and learned more about MYOB
+
+## Week Two
+I have now completed the tax reciept challange 3 times as a result of code review with my mentors.
+We had a learning seesion on TDD and using Jet brains rider which I found useful.
+We also learned the technique to peer programming and mobbing.
+I attended the Say It As It Is learning lab and became an expert on giving feedback.
+I found out the a lot of VIM users have a strong dislike fo Emacs.  My manager Mark especially does not like Emacs so I installed emacs and spent some of Thursday morning learning emacs.
