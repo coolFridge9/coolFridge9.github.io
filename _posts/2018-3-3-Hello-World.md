@@ -27,3 +27,16 @@ We had a learning seesion on TDD and using Jet brains rider which I found useful
 We also learned the technique to peer programming and mobbing.
 I attended the Say It As It Is learning lab and became an expert on giving feedback.
 I found out that a lot of VIM users have a strong dislike fo Emacs.  My manager Mark especially does not like Emacs so I installed emacs and learned how to use it.
+
+## stuff I should remember -- Xunit
+[Theory]
+[InlineData("",0)]
+[InlineData("1",1)]
+[InlineData("1,2",3)]
+public void testName(parameters)
+  {
+      var calculator = new NewLineStringCalculator();
+      var result = calculator.Add(numbers);
+      Assert.Equal(sum, result); // can also use Assert.True with one entry on inline data
+  }
+      
