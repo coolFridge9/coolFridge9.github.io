@@ -49,6 +49,7 @@ public void testName(parameters)
   * remove a directory: rm-rf
   
  ## C# stuff
-  * Tuple: ```return Tuple.Create(x,y)```
-  * Multidi Array (3D): ``` int[,,] varName = new int[x,y,z]```
+  * Tuple: ```return Tuple.Create(x,y);```
+  * Access first item in tuple ```tupleName.Item1;```
+  * Multidi Array (3D): ``` int[,,] varName = new int[x,y,z];```
   
