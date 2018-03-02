@@ -42,9 +42,13 @@ public void testName(parameters)
   }
   ```
   ## terminal stuff to remember
-  *git add :/ (adds every thing in the folder)
-  *git commit -m "message"
-  *git push
-  *remove a file :rm
-  *remove a directory: rm-rf
+  * git add :/ (adds every thing in the folder)
+  * git commit -m "message"
+  * git push
+  * remove a file :rm
+  * remove a directory: rm-rf
+  
+  ## C# stuff
+  * Tuple: ```return Tuple.Create(x,y)```
+  * Multidi Array (3D): ``` int[,,] varName = new int[x,y,z]```
   
