@@ -41,14 +41,14 @@ public void testName(parameters)
       Assert.Equal(sum, result); // can also use Assert.True with one entry on inline data
   }
   ```
-  ## terminal stuff to remember
+ ## terminal stuff to remember
   * git add :/ (adds every thing in the folder)
   * git commit -m "message"
   * git push
   * remove a file :rm
   * remove a directory: rm-rf
   
-  ## C# stuff
+ ## C# stuff
   * Tuple: ```return Tuple.Create(x,y)```
   * Multidi Array (3D): ``` int[,,] varName = new int[x,y,z]```
   
