@@ -1,0 +1,15 @@
+---
+layout: post
+title: MultiDimentional Arrays in C#
+---
+
+## 2D Array initialisation
+
+```csharp 
+int[,] a = new int[,] { { 1, 2 }, { 3, 4 }, { 5, 6 }, { 7, 8 } }; 
+or
+int[,] a = new int[2,4];
+```
+
+
+
