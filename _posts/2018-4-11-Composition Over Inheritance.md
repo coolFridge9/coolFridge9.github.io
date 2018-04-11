@@ -1,3 +1,8 @@
+---
+layout: post
+title: TDD
+---
+
 Over my time here I have learned that inhertance is important to understand because it is used in many of our 
 code bases but it shouldn't really be used due to a number of disadvantages which don't apply to composition. 
 
