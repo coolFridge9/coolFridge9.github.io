@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TDD
+title: Composition Over Inheritance
 ---
 
 Over my time here I have learned that inhertance is important to understand because it is used in many of our 
