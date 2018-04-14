@@ -92,6 +92,7 @@ I plan on allowing negative moves in the future by using four arrays together on
 
 ## Third TicTakToe Iteration - Alot of Composition but still basic 3x3 board.
 This TicTacToe game was built using recursion rather than an iterative gameplay loop as I did in the previous 2 versions.
+
  ### Board and Win Condition
 I used a 2D string array for the board and used the same win condition as in my first Iteration.  I had to write a function to convert the 2D into lists to use the same win condition.
 
