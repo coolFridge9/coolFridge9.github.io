@@ -90,6 +90,9 @@ Unfortunately arrays can't use negative indexes so I had to disallow negative mo
 
 I plan on allowing negative moves in the future by using four arrays together one will hold positive moves, one will hold negatives moves, one will hold moves which are have a negative x and positive y, the other will hold moves with a positive x and a negative y.
 
+![_config.yml]({{ site.baseurl }}/images/Screen Shot 2018-04-15 at 12.20.31 AM.png)
+
+
 This game has been very cool for challenging people because most people dont realise that the board can expand beyond the default 3x3 so I can usually win by going outside the boundries.
 
 ## Third TicTakToe Iteration - Alot of Composition but still basic 3x3 board.
