@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-![]({{ site.baseurl }}/images/Screen Shot 2018-04-14 at 11.28.54 PM.png =250x)
+![_config.yml]({{ site.baseurl }}/images/Screen Shot 2018-04-14 at 11.28.54 PM.png  =250x)
 
 ### Information
 
