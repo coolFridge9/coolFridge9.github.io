@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 <img src="{{ site.baseurl }}/images/Screen Shot 2018-04-14 at 11.28.54 PM.png" alt="Drawing" style="width: 200px;"/>
+
+
 ![_config.yml]({{ site.baseurl }}/images/Screen Shot 2018-04-14 at 11.28.54 PM.png)
 
 ### Information
