@@ -35,7 +35,7 @@ a left-to-right diagonal win.
 Here are some possible Horizontal win move sets (Board size 3): ([1,1][2,1][3,1]) or ([2,3][1,3][3,3])
 They all contain one Y value 3 times.
 
-After sorting a users move set by Y value, You easily check if it contains the same value three times in a row.
+After sorting a user's move set by Y value, You can easily check if it contains the same value three times in a row.
 
 I also implemented the same check for a vertical win using X values.
 
