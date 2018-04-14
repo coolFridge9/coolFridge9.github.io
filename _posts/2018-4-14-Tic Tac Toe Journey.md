@@ -97,6 +97,10 @@ This TicTacToe game was built using recursion rather than an iterative gameplay 
 I used a 2D string array for the board and used the same win condition as in my first Iteration.  I had to write a function to convert the 2D into lists to use the same win condition.
 
 ### Logic
+
+![_config.yml]({{ site.baseurl }}/images/TicTacToe recurs.png)
+
+
 So Basically valid input can be split into two types of valid inputs: Commands and Moves
 
 Moves can be validated by being in the format x,y and both x and y have to be between 1 and 3.
