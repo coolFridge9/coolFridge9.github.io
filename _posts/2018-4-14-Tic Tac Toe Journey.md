@@ -72,6 +72,8 @@ Say the player made a move (2,2)
 * For a left-to-right diagonal win: The player need moves (3,3) and (4,4)
 * For a right-to-left diagonal win: The player need moves (1,3) and (0,4)
 
+![_config.yml]({{ site.baseurl }}/images/TicTacToe ImageC copy 2.png)
+
 The win checker would check if any of the required move sets from each of the players moves were in the players moveset.
 
 ### AI
