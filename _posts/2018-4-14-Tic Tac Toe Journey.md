@@ -2,7 +2,7 @@
 layout: post
 title: Coding TicTacToe
 ---
-![_config.yml]({{ site.baseurl }}/images/TicTacToe Image.png)
+![_config.yml]({{ site.baseurl }}/images/TicTacToe ImageC.png)
 ## First TicTacToe Iteration -Basic Version
 
 The first time I coded TicTacToe. It was a 1 player game where you would play against an AI.
