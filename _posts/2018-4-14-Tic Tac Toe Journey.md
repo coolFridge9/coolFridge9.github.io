@@ -60,7 +60,7 @@ This code was the first time I used composition.  I created an interface which h
 This game didn't originally have a board structure.  Each player object held its own set of moves and had a didWin() function
 to check if it won.  I ended up needing a board to check if a player move had already been taken. I created a Board object which held a list of every move that had been made.  Each move was stored in a Move object which I created.
 
-### Win Condiition
+### Win Condition
 Since The board was infinitely large in this iteration, I had to create a new win condition.
 This win checker would loop though every move the player made and calculate the corosponding set needed for a win.
 
