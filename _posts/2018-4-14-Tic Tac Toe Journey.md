@@ -51,6 +51,40 @@ the middle.
 ## Second Iteration TicTacToe Iteration - Flexible Version
 This version was extremely flexible and allowed the user to go anywhere on an infinite board.  You could also add as many players as you wanted with any one-character symbols that you wanted.  In the main program.  you had to create a new game object and you could type game.AddPlayer("X",new Human()) and a new Human player would be added to the game.
 
+### Compostition
+This code was the first time I used composition.  I created an interface which had a method for getting a player move. The human implentation of this interface would get a player move from the console and the AI implementation of this move would get its move from an AI object.
+
 ### Board
 This game didn't originally have a board structure.  Each player object held its own set of moves and had a didWin() function
-to check if it won.  I ended up needing a board to check if a player move had already been taken. I created a Board object which held a list of every move that had been made.
+to check if it won.  I ended up needing a board to check if a player move had already been taken. I created a Board object which held a list of every move that had been made.  Each move was stored in a Move object which I created.
+
+### Win Condiition
+Since The board was infinitely large in this iteration, I had to create a new win condition.
+This win checker would loop though every move the player made and calculate the corosponding set needed for a win.
+
+For example: (if the player needs 3 moves in a row to win)
+
+Say the player made a move (2,2) 
+* For a Horizontal win: The player needs moves (3,2) and (4,2)
+* For a Vertical win: The player need moves (2,3) and (2,4)
+* For a left-to-right diagonal win: The player need moves (3,3) and (4,4)
+* For a right-to-left diagonal win: The player need moves (1,3) and (0,4)
+
+The win checker would check if any of the required move sets from each of the players moves were in the players moveset.
+
+### AI
+The AI for this was just random.  It would go somewhere near the last move that had been made.  I wanted to implement it to build up a train of moves but I never got around to it.
+
+### Rendering
+I remember running into a lot of problems rendering this board.  I would make the board a string before printing it so it could be unit tested.  It was a very difficult task since the players all held their own symbol and set of moves.  It wasnt all in one place.
+
+I started off by rendering a 3x3 board so if you went off the board you would have to visualise it.  I rendered this by using all the players to build up a 2D array and then printed the 2D using a loop.
+
+I wanted to make the board expandable so I created some functions which grabbed the maximum X and Y values needed and created an array large enough to hold all the moves.
+
+Unfortunately arrays can't use negative indexes so I had to disallow negative moves for now.  
+
+I plan on allowing negative moves in the future by using four arrays together one will hold positive moves, one will hold negatives moves, one will hold moves which are have a negative x and positive y, the other will hold moves with a positive x and a negative y.
+
+
+
