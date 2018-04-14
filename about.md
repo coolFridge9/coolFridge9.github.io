@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
+![_config.yml]({{ site.baseurl }}/images/Screen Shot 2018-04-14 at 11.28.54 PM.png)
+
 ### Information
 
-I am a graduate dev at myob.  My hobbies are coding and playing football.
+Very profound software dev.  My hobbies are coding and playing football.
