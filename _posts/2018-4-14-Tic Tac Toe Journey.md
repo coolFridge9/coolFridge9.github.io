@@ -1,8 +1,7 @@
 ---
 layout: post
-title: Tic Tac Toe
+title: Coding TicTacToe
 ---
-# Coding TicTacToe
 ![_config.yml]({{ site.baseurl }}/images/TicTacToe Image.png)
 ## First TicTacToe Iteration -Basic Version
 
