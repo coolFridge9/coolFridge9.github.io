@@ -120,3 +120,9 @@ The previous two iterations, I skipped unit testing on some parts because it was
 
 #### declining invalid input until a valid one is made
 I created a test input reader which extended to the input reader interface so it could be substituted into my code instead of the input reader from the console.  You could pass through a list of strings into the test input reader and it had an index variable which would increment everytime an input was rejected.  For my test cases, I used Assert.Equal() on the index it was at when it returned a valid value.
+
+#### Testing void functions
+This one is still really hard for me to get my head around.  In my code, inputHandlers execute the input based on which validator it fits into.  My mentor helped me write a fakeinputhandler which takes in a test class as a parameter and updates a trigger variable in the execute function if a function is called.  This way I can assert if the trigger variable has switched to true.  This way you can test if the function was called.
+
+#### Unit Testing Struggles
+I am stuck trying to test specific InputHandlers.  For example, the command handler is triggered when the user enters the quit command.  I approached this by making an output interface.  The actual code uses a Console Writer object which extends to that interface.  I wrote a test output class which also extends to the interface but I was unable to return anything because the interface contracts the function to be void.  The only way I could test this was by running the code.
