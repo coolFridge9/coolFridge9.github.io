@@ -86,5 +86,28 @@ Unfortunately arrays can't use negative indexes so I had to disallow negative mo
 
 I plan on allowing negative moves in the future by using four arrays together one will hold positive moves, one will hold negatives moves, one will hold moves which are have a negative x and positive y, the other will hold moves with a positive x and a negative y.
 
+## Third TicTakToe Iteration - Alot of Composition but still basic 3x3 board.
+This TicTacToe game was built using recursion rather than an iterative gameplay loop as I did in the previous 2 versions.
+ ### Board and Win Condition
+I used a 2D string array for the board and used the same win condition as in my first Iteration.  I had to write a function to convert the 2D into lists to use the same win condition.
 
+### Logic
+So Basically valid input can be split into two types of valid inputs: Commands and Moves
 
+Moves can be validated by being in the format x,y and both x and y have to be between 1 and 3.
+
+Commands can be validated by being equal to "q" because the only command is press q to quit.
+
+I created a validator interface which extended to a Moves validator and commands validator.  I then created a dictionary with the validator as the key and a gameplay executioner as the stored data. A executioner complied to an interface which had execute() as the required function.  
+
+In the dictionary, The command validator corosponded to the command executioner which execute() would print a quit message and the game would end.
+
+The move validator corosponded to the move executer which would add the move to the board, check if the game could continue and call the inputHandler.  Its confusing but the inputHandler accepts the dictionary of validators so the game keeps running recursively.
+
+Im not finished this version but im thinking of adding a validator which checks if a move has been taken already because I haven't implemented that part yet.
+
+### Testing
+The previous two iterations, I skipped unit testing on some parts because it was too difficult to implement but now that I have a better understanding of composition, I was able to test almost everything. 
+
+#### declining invalid input until a valid one is made
+I created a test input reader which extended to the input reader interface so it could be substituted into my code instead of the input reader from the console.  You could pass through a list of strings into the test input reader and it had an index variable which would increment everytime an input was rejected.  For my test cases, I used Assert.Equal() on the index it was at when it returned a valid value.
