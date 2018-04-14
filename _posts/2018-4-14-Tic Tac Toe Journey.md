@@ -21,8 +21,7 @@ I don't know why I used numbers instead of strings.  I could have plugged "X" an
 When it came to thinking of a win condition, I realised it would be easier to keep a list of 
 moves for each player and use that movelist to decide if the player won.
 
-This meant my code was keeping track of 2 boards which isnt very good coding.
-
+This meant my code was keeping track of the board twice which isn't ideal
 ### Win Condition
 A players set of moves is stored as a list of tuples eg. [(1,1),(2,3)(3,3)]
 #### Diagonal Win
