@@ -8,11 +8,13 @@ title: Tic Tac Toe
 The first time I coded TicTacToe. It was a 1 player game where you would play against an AI.
 
 ### logic and Implementation
-* I started by making the board a 2D array of integers
-* On the board: 
-⋅⋅* O represented a blank space
-⋅⋅* 1 represented a space filled by X
-⋅⋅* 2 represented a space filled by O
+I started by making the board a 2D array of integers
+
+
+On the board: 
+* O represented a blank space
+* 1 represented a space filled by X
+* 2 represented a space filled by O
 
 I don't know why I used numbers instead of strings.  I could have plugged "X" and "O" straight into the array.
 
