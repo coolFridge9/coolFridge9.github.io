@@ -39,9 +39,9 @@ After sorting a user's move set by Y value, You can easily check if it contains 
 
 I also implemented the same check for a vertical win using X values.
 
-### AI
+### AI 
 The AI had a method for generating a list of available spaces on the board.  It would loop through this list deciding what
-move to make using the following logic:
+move to make using the following logic: ![_config.yml]({{ site.baseurl }}/images/AI.png)
 1. If there is a move that could make the AI win, then this move is returned.  This could be checked by adding each move
 to the players move list, checking for a win, then removing it from the move list.
 2. If there is a move that can block a win, that move is returned. The AI can find this by adding each move on to
