@@ -3,10 +3,9 @@ layout: page
 title: About
 permalink: /about/
 ---
-<img src="{{ site.baseurl }}/images/Screen Shot 2018-04-14 at 11.28.54 PM.png" alt="Drawing" style="width: 200px;"/>
+<img src="{{ site.baseurl }}/images/Screen Shot 2018-04-14 at 11.28.54 PM.png" alt="Drawing" style="width: 400px;"/>
 
 
-![_config.yml]({{ site.baseurl }}/images/Screen Shot 2018-04-14 at 11.28.54 PM.png)
 
 ### Information
 
