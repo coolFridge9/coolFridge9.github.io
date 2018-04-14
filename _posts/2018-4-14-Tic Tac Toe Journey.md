@@ -35,7 +35,7 @@ After sorting a users move set by Y value, You easily check if it contains the s
 
 I also implemented the same check for a vertical win using X values.
 
-####AI
+#### AI
 The AI had a method for generating a list of available spaces on the board.  It would loop through this list deciding what
 move to make using the following logic:
 1. If there is a move that could make the AI win, then this move is returned.  This could be checked by adding each move
@@ -45,3 +45,5 @@ the human players move list, checking for a win, then removing the move from the
 3. Checks if the middle square is taken.  For even number board sizes eg 4X4, theres no middle sqare so it would be around
 the middle.
 4. Lastly, If none of the above moves could be made, the AI would choose a random square to take from the available spaces.
+
+## Second Iteration TicTacToe Iteration - Flexible Version
