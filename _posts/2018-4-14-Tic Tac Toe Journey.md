@@ -90,6 +90,8 @@ Unfortunately arrays can't use negative indexes so I had to disallow negative mo
 
 I plan on allowing negative moves in the future by using four arrays together one will hold positive moves, one will hold negatives moves, one will hold moves which are have a negative x and positive y, the other will hold moves with a positive x and a negative y.
 
+This game has been very cool for challenging people because most people dont realise that the board can expand beyond the default 3x3 so I can usually win by going outside the boundries.
+
 ## Third TicTakToe Iteration - Alot of Composition but still basic 3x3 board.
 This TicTacToe game was built using recursion rather than an iterative gameplay loop as I did in the previous 2 versions.
 
@@ -115,7 +117,7 @@ The move validator corosponded to the move executer which would add the move to 
 
 Im not finished this version but im thinking of adding a validator which checks if a move has been taken already because I haven't implemented that part yet.
 
-### Testing
+### Unit Testing
 The previous two iterations, I skipped unit testing on some parts because it was too difficult to implement but now that I have a better understanding of composition, I was able to test almost everything. 
 
 #### declining invalid input until a valid one is made
