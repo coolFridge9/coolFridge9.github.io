@@ -29,6 +29,8 @@ my code would generate a list of moves required for a win based on the size of t
 example, for a board of size 3, [(1,1),(2,2),(3,3)] would have to be included in a players move set for 
 a left-to-right diagonal win.
 #### Straight Line Win
+
+![_config.yml]({{ site.baseurl }}/images/TicTacToe ImageC copy.png)
 Here are some possible Horizontal win move sets (Board size 3): ([1,2][2,2][3,2]) or ([2,3][1,3][3,3])
 They all contain one Y value 3 times.
 
