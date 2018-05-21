@@ -2,6 +2,9 @@
 layout: post
 title: Conways Game of Life 
 ---
+
+### how my class naming changed over the project
+
 | Original Class Name | Purpose | CLass Name I changed it too by the end|
 | ------------- |:-------------:| -----:|
 | Grid   | Stores the Alive cells | LivingCellsGrid |
@@ -12,3 +15,10 @@ title: Conways Game of Life
 | GridUpdator | Runs though all the cells on the board and uses the CellChecker to create the grids next state | Generation |
 | Iterator | Runs a loop which continuosly updates and prints the grid | ConwaysGameOfLife|
 
+### MOQ Framework
+```csharp
+ var moqVariable = new Mock<Interface>();
+ moqVariable.Verify(x => x.Write(It.IsAny<string>()), Times.Exactly(3));
+ ```
+  
+  It checks the output's a string and was outputted three times
