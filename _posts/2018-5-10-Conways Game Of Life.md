@@ -39,7 +39,10 @@ I ended up using ConwaysGameOfLife instead of Iterator because it used the domai
  moqVariable.Verify(x => x.Write(It.IsAny<string>()), Times.Exactly(3));
  ```
   
-  It checks the output's a string and was outputted three times
+  It checks the output's a string and was outputted three times.
+  
+#### why is this useful??
+It allows you to to do a unit test on a class which contains other classes.  By making the contained classes into mock classes, you can write a unit test which only tests the functionality of the single class you want to test.
 
 ### Edge of the world wrap and bug
 To make the world wrap, I used modulus (dividing by the length/width) to make the square after the end square equal to the first square.
