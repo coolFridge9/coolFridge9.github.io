@@ -14,7 +14,24 @@ title: Conways Game of Life
 | CellChecker | Contains a method to tell if a cell should live in the next state | Deleted this class |
 | GridUpdator | Runs though all the cells on the board and uses the CellChecker to create the grids next state | Generation |
 | Iterator | Runs a loop which continuosly updates and prints the grid | ConwaysGameOfLife|
+## WHY
+I changed Grid to LivingCellsGrid because I wasn't storing dead cells in the grid so by specifying it was a living cells grid, it made variable naming in the class much simpler becasue I didn't have to specify alive cells in all the variable names in the class and it makes the intent of the class a lot more clear.
 
+
+
+I changed Cell to Location because its only properties were X and Y integers so it was tecnically just a location.  storing the Location objects on the LvingCellsGrid really expressed intent because it became obvious that I was storing the locations of the alive cells
+
+
+
+I deleted the CellChecker class because the name didn't express any obvious intent.  I also realised that the functions I was using to check the cells such as `CountAliveNeighbours()` and `ShouldLiveInNextGen()` didn't belong in this class and were better off in other classes.  I moved `CountAliveNeighbours()` to LivingCellsGrid and `ShouldLiveInNextGen()` to Generation.
+
+
+
+I renamed GridUpdator to Generation because my mentor and I thought Generation.Next() was a beter way to get an updated grid using the domain language.
+
+
+
+I ended up using ConwaysGameOfLife instead of Iterator because it used the domain language, Iterator was too technical.
 
 ### MOQ Framework
 ```csharp
