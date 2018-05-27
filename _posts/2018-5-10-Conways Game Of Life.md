@@ -5,7 +5,7 @@ title: Conways Game of Life
 
 ### how my class naming changed over the project
 
-| Original Class Name | Purpose | CLass Name I changed it too by the end|
+| Original Class Name | Purpose | Class Name I changed it too by the end|
 | ------------- |:-------------:| -----:|
 | Grid   | Stores the Alive cells | LivingCellsGrid |
 | Cell | Stores the X and Y corordinates and knows if the cell is alive | Location |
