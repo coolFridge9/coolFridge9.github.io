@@ -10,7 +10,7 @@ the more modern payroll systems.
 
 They were working on using a new technology which would output an informative alert when a data entry is changed.
 
-### proceedure
+### procedure
 This was an experiment day for the team so they put a time box on proving that this piece of technology would work. 
 They timeboxed the experiement to one day so if the couldnt get it to work after a day we would scrap it and write it ourself.
 Fortunatly we did get it working so the day wasn't wasted.
