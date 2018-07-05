@@ -2,7 +2,7 @@
 layout: post
 title: Running a web app on an ec2
 ---
-
+<img src="{{ site.baseurl }}/images/ec2.png" alt="Drawing" style="width: 300px;"/>
 ## What is an EC2?
 It stands for Elastic Compute Cloud.  Its a virtual computing environment where you can continuosly open instances 
 in the cloud with various operating systems.
@@ -44,3 +44,12 @@ dotnet project.dll
 
 If you are not using a server, you can redirect traffic outside of your local machine using:
 dotnet project.dll --urls http://ec2-num.ap-southeast-2.compute.amazonaws.com:5000
+
+## Automatically booting up the app on start up
+you need to put the app's publish folder in the root (to be accessed before the user loggin)  
+Sudo cp -r publish /apps
+I created a folder in the root called apps.
+
+The next step is to to go to the file:  /etc/rc.local
+and add the script to run the app at the bottom of the file eg:  
+dotnet /apps/publish/GreetingWebsiteV2.dll --urls http://ec2-52-64-221-91.ap-southeast-2.compute.amazonaws.com:5000
