@@ -37,7 +37,7 @@ scp -i "KeyPair.pem" /fileLocation/publish.tar ubuntu@ec2-num.ap-
 southeast-2.compute.amazonaws.com:
 
 the publish.tar file should now be on your ec2 so it needs to be uncompressed
-tar -xvf publish.tar
+tar -xvf publish.tar 
 (xvf = extract verbose file)
 
 next you need to run the .dll file in the publish folder with:
@@ -54,3 +54,6 @@ I created a folder in the root called apps.
 The next step is to to go to the file:  /etc/rc.local
 and add the script to run the app at the bottom of the file eg:  
 dotnet /apps/publish/GreetingWebsiteV2.dll --urls http://ec2-52-64-221-91.ap-southeast-2.compute.amazonaws.com:5000
+## Why would you want to do this
+You can leave the application running in the cloud so it can always be accessed and you can leave it running.
+You can also autoscale up more identical ec2's if there's too much web traffic and drop them during low traffic.
