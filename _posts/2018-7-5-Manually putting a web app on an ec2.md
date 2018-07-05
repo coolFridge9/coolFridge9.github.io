@@ -2,7 +2,7 @@
 layout: post
 title: Running a web app on an ec2
 ---
-<img src="{{ site.baseurl }}/images/ec2.png" alt="ec2logo" style="width: 300px;"/>
+![_config.yml]({{ site.baseurl }}/images/ec2.png)
 
 ## What is an EC2?
 It stands for Elastic Compute Cloud.  Its a virtual computing environment where you can continuosly open instances 
