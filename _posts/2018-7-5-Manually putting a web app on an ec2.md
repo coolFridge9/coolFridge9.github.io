@@ -17,6 +17,7 @@ You can register the microsoft key with the following line:
 wget -q https://packages.microsoft.com/config/ubuntu/16.04/packages-microsoft-prod.deb  
 You install the required dependancies with:  
 sudo dpkg -i packages-microsoft-prod.deb
+(dpkg is packet managment software for installing)
 
 The following 3 lines install dotnet 2.1:
 sudo apt-get install apt-transport-https
@@ -28,6 +29,7 @@ The next step is to publish your application.  I did this by publishing on the r
 
 You don't need to do this but I combined the publish folder into a .tar file using:  
 tar -cvf publish.tar publish
+(cvf = create verbose file)
 
 I copied the .tar file to the ec2 with the following instruction:
 scp -i "KeyPair.pem" /fileLocation/publish.tar ubuntu@ec2-num.ap-
@@ -35,6 +37,7 @@ southeast-2.compute.amazonaws.com:
 
 the publish.tar file should now be on your ec2 so it needs to be uncompressed
 tar -xvf publish.tar
+(xvf = extract verbose file)
 
 next you need to run the .dll file in the publish folder with:
 dotnet project.dll
