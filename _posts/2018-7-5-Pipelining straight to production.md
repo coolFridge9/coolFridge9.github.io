@@ -18,3 +18,8 @@ The code is uploaded to the BuildKite API to a BuildKite agent.
 An image is created (An empty container).  I founds out later that this isn't a good idea.  I should have a pre-baked container uploaded so less things can go wrong. (such as dotnet updating with a bug or aws)
 
 ![_config.yml]({{ site.baseurl }}/images/DOcker2.png)
+
+#### Pipeline step 3: Run the dockerfile and run the tests
+Runing the dockerfile installs the dependancies for the application to run in the docker.  In this step we ran the tests written (we only did unit tests but integration tests are important too) If the tests passed, the deployment continued.
+
+#### Pipeline step 4: 
