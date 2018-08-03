@@ -10,3 +10,6 @@ permalink: /about/
 ### Information
 
 Very profound software dev.  My hobbies are coding and playing football.  I also like standing on top of high mountains and staring into the distance.
+
+![_config.yml](https://www.codewars.com/users/coolFridge9/badges/large)
+https://www.codewars.com/users/coolFridge9/badges/large
