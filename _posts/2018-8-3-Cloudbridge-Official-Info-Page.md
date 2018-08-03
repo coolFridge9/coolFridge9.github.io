@@ -15,7 +15,7 @@ Great guy.  He really knows his stuff and is an expert in most thing due to ever
 #### Ivan Karaman (Russian Hacker)
 *"I blame microsoft"* (said a minimum of 3 times per day) 
 
-He is blatently honest about all his thoughts which is exactly what a good team needs. He is a logical thinker and has an impressive knowledge of memes.  He takes everything very literally and I recommend thinking about what you are going to say for 5 minutes before talking to him so you don't get out smarted.
+He is blatently honest about all his thoughts which is exactly what a good team needs. He is a logical thinker and has an impressive knowledge of memes.  He takes everything very literally and I recommend thinking about what you are going to say for 5 minutes before talking to him to prevent yourself from getting out smarted.
 
 #### Jordan Elley (Temporary Member on Crew Rotations)
 great worker.
