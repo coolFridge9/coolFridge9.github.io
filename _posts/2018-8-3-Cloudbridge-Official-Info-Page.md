@@ -35,4 +35,5 @@ Before I joined the team, they had pull requests disabled. This means that they 
 #### Team Review
 This team is a very open-minded, intelligent team and are happy to embrace change and listen to my ideas.  I think the small style team works really well.
 
-![_config.yml]({{ site.baseurl }}/images/Screen Shot 2018-08-03 at 3.33.12 PM.png)
+[//]: <> (![_config.yml]({{ site.baseurl }}/images/Screen Shot 2018-08-03 at 3.33.12 PM.png))
+<img src="{{ site.baseurl }}/images/Screen Shot 2018-08-03 at 3.33.12 PM.png" alt="Drawing" style="width: 50px;"/>
