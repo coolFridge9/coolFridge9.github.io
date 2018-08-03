@@ -6,14 +6,14 @@ title: Cloudbridge Official Info Page
 Cloudbridge is a very small and newly established team of only three member current members.  From being in the team for two weeks, my understating is that we are making chains of APIs which transfer data from old payroll systems, such as, Exo and Foxpro, and are storing them in a GDM (Generic Data Model).  This data is then going to be sent to our Advanced team so that customers can easily be transfered to our 'better written' software.
 
 ### Members:
-#### - Erich Kuba (Senior Developer)
+#### Erich Kuba (Senior Developer)
 *"I can concentrate for 14 hours straight"*
 Great guy.  He really knows his stuff and is an expert in most thing due to everything being a lot more difficult when he first started programming.  He has made big mistakes previously in his career and does not make mistakes anymore. He is really good at explaining concepts but usually chooses not to because I need to improve my self-learning ability.
-#### - Ivan Karaman (Russian Hacker)
+#### Ivan Karaman (Russian Hacker)
 *"I blame microsoft"* (said a minimum of 3 times per day)
 He is blatently honest about all his thoughts which is exactly what a good team needs. He is a logical thinker and has an impressive knowledge of memes.  He takes everything very literally and I recommend thinking about what you are going to say for 5 minutes before talking to him so you don't get out smarted.
 
-#### - Jordan Elley (Temporary Member on Crew Rotations)
+#### Jordan Elley (Temporary Member on Crew Rotations)
 great worker.
 
 ### Technical Info
