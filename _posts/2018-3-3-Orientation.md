@@ -27,9 +27,5 @@ We had a learning seesion on TDD and using Jet brains rider which I found useful
 We also learned the technique to peer programming and mobbing.
 I attended the Say It As It Is learning lab and became an expert on giving feedback.
 
-
-## terminal stuff to remember
-  * remove a file :rm
-  * remove a directory: rm-rf
   
   
