@@ -30,4 +30,5 @@ They are very short as we work together all day and are already aware of each ot
 #### Coding
 Before I joined the team, they had pull requests disabled. This means that they did the majority of their code via pairing and merged straight to the main branch.  They do a lot of diagrams on the whiteboard and make sure they are both on the same page.  Since I have joined the team, Cloudbridge has been forced into enabling pull requests.  This means that we have started reviewing each others code.  I have mostly worked on API's for the team by myself but next week I will be working on a spike project with Ivan.  To indicate what tasks we are working on we use sticky notes on the board.  We have no retros or meetings besides stand ups.
 
+#### Team Review
 This team is a very open-minded, intelligent team and are happy to embrace change and listen to my ideas.  I think the small style team works really well.
