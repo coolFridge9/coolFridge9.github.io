@@ -25,3 +25,9 @@ Runing the dockerfile installs the dependancies for the application to run in th
 #### Pipeline step 4: Build and publish the app
 Publish the final app into an s3 bucket.  
 ![_config.yml]({{ site.baseurl }}/images/Screen Shot 2018-08-03 at 1.37.20 PM.png)
+
+#### Running the published app
+Add some scripts to the autoscalling group which pull the app from the bucket on the ec2 start up and runs the app.
+
+![_config.yml]({{ site.baseurl }}/images/Autoscalling G.png)
+
