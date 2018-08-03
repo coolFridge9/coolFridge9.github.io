@@ -5,6 +5,8 @@ title: Cloudbridge Official Info Page
 ### Team Overview
 Cloudbridge is a very small and newly established team of only three member current members.  From being in the team for two weeks, my understating is that we are making chains of APIs which transfer data from old payroll systems, such as, Exo and Foxpro, and are storing them in a GDM (Generic Data Model).  This data is then going to be sent to our Advanced team so that customers can easily be transfered to our 'better written' software.
 
+![_config.yml]({{ site.baseurl }}/images/38254843_10216892472926945_3945625367791796224_n.jpg)
+
 ### Members:
 #### Erich Kuba (Senior Developer)
 *"I can concentrate for 14 hours straight"* 
