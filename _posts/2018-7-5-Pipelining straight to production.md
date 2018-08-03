@@ -22,4 +22,6 @@ An image is created (An empty container).  I founds out later that this isn't a 
 #### Pipeline step 3: Run the dockerfile and run the tests
 Runing the dockerfile installs the dependancies for the application to run in the docker.  In this step we ran the tests written (we only did unit tests but integration tests are important too) If the tests passed, the deployment continued.
 
-#### Pipeline step 4: 
+#### Pipeline step 4: Build and publish the app
+Publish the final app into an s3 bucket.  
+![_config.yml]({{ site.baseurl }}/images/Screen Shot 2018-08-03 at 1.37.20 PM.png)
