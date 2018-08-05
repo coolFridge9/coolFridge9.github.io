@@ -21,7 +21,7 @@ He is blatently honest about all his thoughts which is exactly what a good team 
 Great worker.
 
 ### Technical Info
-This team is completely back-end.  All of our code is written in Javascript with node 8.11.3. Jest is used for all of our tests.  Our test coverage is 100% where possible which makes the code easy to modify and refactor.  For our pipeline, all of our tools are from AWS.  (CodePipeling, CodeBuild, CodeDeploy).  Our applications are hosted in an Ubuntu ec2.
+This team is completely back-end.  All of our code is written in Javascript with node 8.11.3. Jest is used for all of our tests.  Our test coverage is 100% where possible which makes the code easy to modify and refactor.  For our pipeline, all of our tools are from AWS.  (CodePipeline, CodeBuild, CodeDeploy).  Our applications are hosted in an Ubuntu ec2.
 
 ### Team Work
 #### Stand ups
