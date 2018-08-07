@@ -10,7 +10,7 @@ title: Subnets
 
 - only contains a private IP address and can only be accessed by the internal network.(In the VPC)
 
-### IP Ranges
+### IP Ranges reserved for privte networks
 
 Start|End|Number of addresses
 ---|---|---
