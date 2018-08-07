@@ -8,7 +8,7 @@ title: AWS VPC Networking
 
 ### private subnets
 
-- only contains a private IP address and can only be accessed by the internal network.(In the VPC)
+- only contains a private IP address and can only be accessed by other resourses inbthe internal network.(In the VPC)
 
 ### IP Ranges reserved for private networks
 
