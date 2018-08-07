@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Subnets
+title: AWS VPC Networking
 ---
 
 ### public subnets
@@ -19,7 +19,7 @@ Start|End     |Number of addresses
 172.16.0.0|	172.31.255.255|	1048576
 | |
 192.168.0.0   |	192.168.255.255|	65536
-------------|---------|--
+cccccccccccccc|cccccccccccccc|cccccccccccccc
 
 ### route tables
 
