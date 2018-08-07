@@ -14,6 +14,7 @@ title: AWS VPC Networking
 
 Start|End     |Number of addresses
 :---:|:---:|:---:
+ | | 
 10.0.0.0	|10.255.255.255	|16777216
 | |
 172.16.0.0|	172.31.255.255|	1048576
