@@ -4,15 +4,15 @@ title: Subnets
 ---
 
 ### public subnets
-- Contains a private IP address and can contain a public.  The public IP address can be accessed by a user outside the VPC and the private IP can be used to access resourses in the private subnet.
+- Contains resourses which have a private IP address and can have a public IP address.  The public IP address can be accessed by a user outside the VPC and the private IP can be used to access private resourses in the VPC.
 
 ### private subnets
 
 - only contains a private IP address and can only be accessed by the internal network.(In the VPC)
 
-### IP Ranges reserved for privte networks
+### IP Ranges reserved for private networks
 
-____Start___|End     |Number of addresses
+____Start____|End     |Number of addresses
 :---:|:---:|:---:
 10.0.0.0	|10.255.255.255	|16777216
 | |
@@ -22,6 +22,6 @@ ____Start___|End     |Number of addresses
 
 ### route tables
 
-These are for determining which physical address to send data to.  It contains the IP address of the gateway the packet is going to an will determine the physical address.
+These are for determining which physical address to send data to.  It contains the IP address of the gateway the packet is going to and will determine the physical address.
 
 ![_config.yml]({{ site.baseurl }}/images/Screen Shot 2018-08-07 at 12.02.53 PM.png)
