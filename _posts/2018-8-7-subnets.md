@@ -12,7 +12,7 @@ title: Subnets
 
 ### IP Ranges reserved for privte networks
 
-Start       _|End     |Number of addresses
+____Start___|End     |Number of addresses
 :---:|:---:|:---:
 10.0.0.0	|10.255.255.255	|16777216
 | |
