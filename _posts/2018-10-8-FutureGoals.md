@@ -1,7 +1,7 @@
----
+
 layout: post
-title: Future Goals
----
+itle: Future Goals
+
 
 My mentors want to see a blog about what I want to do when I grow up so here it is.  
 
