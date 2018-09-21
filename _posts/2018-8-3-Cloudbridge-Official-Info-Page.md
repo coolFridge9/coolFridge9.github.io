@@ -21,7 +21,7 @@ He is blatantly honest about all his thoughts which is exactly what a good team 
 Great worker.
 
 ### Technical Info
-This team is completely back-end.  All of our code is written in Javascript with node 8.11.3. Jest is used for all of our tests.  Our test coverage is 100% where possible which makes the code easy to modify and refactor.  For our pipeline, all of our tools are from AWS.  (CodePipeline, CodeBuild, CodeDeploy).  Our applications are hosted in an Ubuntu ec2.
+This team is completely back-end.  All of our code is written in Javascript with node 8.11.3. Jest is used for all of our tests.  Our test coverage is 100% where possible which makes the code easy to modify and refactor.  For our pipeline, all of our tools are from AWS.  (CodePipeline, CodeBuild, CodeDeploy).
 
 ### Team Work
 #### Stand ups
@@ -37,7 +37,7 @@ They are very short as we work together all day and are already aware of each ot
 Before I joined the team, they had pull requests disabled. This means that they did the majority of their code via pairing and merged straight to the main branch.  They do a lot of diagrams on the whiteboard and make sure they are both on the same page.  Since I have joined the team, Cloudbridge has been forced into enabling pull requests.  This means that we have started reviewing each others code.  I have mostly worked on API's for the team by myself but next week I will be working on a spike project with Ivan.  To indicate what tasks we are working on we use sticky notes on the board.  We have no retros or meetings besides stand ups.
 
 #### Team Review
-This team is a very open-minded, intelligent team and are happy to embrace change and listen to my ideas.  I think the small style team works really well.
+This team is a very open-minded, intelligent team and are happy to embrace change and listen to my ideas.  I think the small style team works really well.  Our team's average table tennis skill level is probably much higher than most teams average table tennis skill level.
 
 [//]: <> (![_config.yml]({{ site.baseurl }}/images/Screen Shot 2018-08-03 at 3.33.12 PM.png))
 <img src="{{ site.baseurl }}/images/Screen Shot 2018-08-03 at 3.33.12 PM.png" alt="Drawing" style="width: 100px;"/>
